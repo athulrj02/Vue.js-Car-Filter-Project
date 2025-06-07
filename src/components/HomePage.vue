@@ -4,12 +4,26 @@
     <HeaderPage/>
     <img class="logo-circle"  src="../assets/logo.png" alt="Logo" />
     
-    <h1>Hello {{ name }}</h1>
+    <h1>Hello {{ name }}, if you are at the right place </h1>
     <input
   v-model="searchQuery"
   type="text"
   placeholder="Search by color, manufacturer, engine..."
-  style="padding: 8px; margin-bottom: 20px; width: 300px; display: block; margin-left: auto; margin-right: auto;"
+  style="
+  padding: 16px;
+  margin-bottom: 24px;
+  width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #0077b6;           /* Thicker and colored border */
+  border-radius: 12px;                 /* Rounded corners */
+  background-color: #f1faff;           /* Soft background */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Light shadow for depth */
+  font-family: 'Segoe UI', sans-serif; /* Clean font */
+  color: #023e8a;                      /* Dark text color */
+"
+
 />
 
 
