@@ -122,3 +122,7 @@ export default {
 }
 /* no changes */
 </style>
+
+
+
+<!-- Demo conflict 2 -->
